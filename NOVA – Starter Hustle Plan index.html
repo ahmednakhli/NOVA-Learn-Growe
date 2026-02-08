@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Your First Online Income Starts With Free Tools | NOVA</title>
+
+<meta name="description" content="NOVA Starter Hustle Plan helps beginners start making money online with free tools only. No budget required. Honest and realistic.">
+<meta name="keywords" content="make money online, beginner income, zero budget, free tools, online hustle">
+<meta name="author" content="NOVA">
+<meta name="robots" content="index, follow">
+
+<style>
+:root{
+  --bg:#050b1e;
+  --card:#0d1638;
+  --accent:#3b82f6;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto}
+body{
+  background:linear-gradient(135deg,#050b1e,#0a1a44);
+  color:var(--text);
+  line-height:1.7;
+}
+header{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+select{
+  background:#0d1638;
+  color:#fff;
+  border:1px solid var(--accent);
+  padding:8px 12px;
+  border-radius:8px;
+}
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:70px 20px;
+  animation:fadeUp .8s ease both;
+}
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+h1,h2,h3{color:#fff;margin-bottom:15px}
+p,li{color:var(--muted)}
+ul{margin-left:20px}
+.card{
+  background:linear-gradient(135deg,#0d1638,#0a1a44);
+  padding:35px;
+  border-radius:18px;
+  margin-top:30px;
+  box-shadow:0 30px 80px rgba(59,130,246,.15);
+}
+.btn{
+  display:inline-block;
+  margin:12px 12px 0 0;
+  padding:14px 30px;
+  border-radius:999px;
+  background:linear-gradient(90deg,var(--accent),#60a5fa);
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  transition:.3s;
+}
+.btn:hover{transform:scale(1.05)}
+.btn.alt{
+  background:transparent;
+  border:1px solid var(--accent);
+}
+.download-box{
+  margin-top:20px;
+  display:none;
+}
+input{
+  padding:12px;
+  border-radius:8px;
+  border:none;
+  width:100%;
+  margin-top:10px;
+}
+footer{
+  padding:40px 20px;
+  text-align:center;
+  font-size:14px;
+  color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <strong>NOVA</strong>
+  <select id="lang">
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="ar">العربية</option>
+    <option value="es">Español</option>
+  </select>
+</header>
+
+<section>
+  <h1 data="title">Your First Online Income Starts With Free Tools</h1>
+  <p data="subtitle">A realistic guide to help beginners start making money online with zero budget.</p>
+  <a class="btn" href="https://wa.me/212777364251?text=Hello%20I%20want%20to%20buy%20NOVA%20Starter%20Hustle%20Plan">Buy via WhatsApp</a>
+  <a class="btn alt" href="https://www.instagram.com/phoenix_ahmed_123/">Buy via Instagram</a>
+</section>
+
+<section class="card">
+  <h2 data="problemTitle">The Problem</h2>
+  <ul id="problemList"></ul>
+</section>
+
+<section>
+  <h2 data="solutionTitle">The Solution</h2>
+  <p data="solutionText"></p>
+</section>
+
+<section class="card">
+  <h2 data="contentTitle">What You Get</h2>
+  <ul id="contentList"></ul>
+</section>
+
+<section>
+  <h2 data="storyTitle">Founder Story</h2>
+  <p data="storyText"></p>
+</section>
+
+<section class="card">
+  <h2 data="downloadTitle">Download Access</h2>
+  <p data="downloadText">Enter your access code after purchase.</p>
+  <input id="code" placeholder="Enter access code">
+  <a class="btn" onclick="unlock()">Unlock Download</a>
+  <div class="download-box" id="download">
+    <a class="btn alt" href="nova.pdf" download>Download PDF</a>
+  </div>
+</section>
+
+<section>
+  <h2 data="supportTitle">Support</h2>
+  <p>WhatsApp: +212 777 364 251</p>
+  <p>Email: mrahmed20101119@gmail.com</p>
+  <p>Instagram: phoenix_ahmed_123</p>
+</section>
+
+<section class="card">
+  <h2 data="legalTitle">Legal</h2>
+  <p data="legalText"></p>
+</section>
+
+<footer>© 2026 NOVA. All rights reserved.</footer>
+
+<script>
+const content={
+en:{
+title:"Your First Online Income Starts With Free Tools",
+subtitle:"A realistic guide to help beginners start making money online with zero budget.",
+problemTitle:"The Problem",
+problemList:["No money","Too many fake promises","No clear path"],
+solutionTitle:"The Solution",
+solutionText:"NOVA gives you a clear, honest path using only free tools.",
+contentTitle:"What You Get",
+contentList:["5 beginner methods","Free tools","14-day plan","Mistakes to avoid"],
+storyTitle:"Founder Story",
+storyText:"I started from zero. This guide is what I needed back then.",
+downloadTitle:"Download Access",
+downloadText:"Enter your access code after purchase.",
+supportTitle:"Support",
+legalTitle:"Legal",
+legalText:"Educational digital product. No income guaranteed."
+},
+fr:{
+title:"Votre premier revenu en ligne commence avec des outils gratuits",
+subtitle:"Guide réaliste pour débuter sans budget.",
+problemTitle:"Le problème",
+problemList:["Pas d'argent","Trop d'arnaques","Pas de plan clair"],
+solutionTitle:"La solution",
+solutionText:"NOVA propose un chemin honnête avec des outils gratuits.",
+contentTitle:"Contenu",
+contentList:["5 méthodes","Outils gratuits","Plan 14 jours","Erreurs"],
+storyTitle:"Histoire du fondateur",
+storyText:"J'ai commencé à zéro.",
+downloadTitle:"Accès téléchargement",
+downloadText:"Entrez votre code après achat.",
+supportTitle:"Support",
+legalTitle:"Mentions légales",
+legalText:"Produit éducatif digital."
+},
+ar:{
+title:"دخلك الأول من الإنترنت يبدأ بأدوات مجانية",
+subtitle:"دليل واقعي للمبتدئين بدون رأس مال.",
+problemTitle:"المشكل",
+problemList:["لا مال","وعد كاذبة","غياب خطة"],
+solutionTitle:"الحل",
+solutionText:"NOVA يقدم طريقًا واضحًا بأدوات مجانية.",
+contentTitle:"المحتوى",
+contentList:["5 طرق","أدوات مجانية","خطة 14 يوم","أخطاء"],
+storyTitle:"قصة المؤسس",
+storyText:"بدأت من الصفر.",
+downloadTitle:"الوصول للتحميل",
+downloadText:"أدخل كود الوصول بعد الشراء.",
+supportTitle:"الدعم",
+legalTitle:"قانوني",
+legalText:"منتج تعليمي رقمي."
+},
+es:{
+title:"Tus primeros ingresos online comienzan con herramientas gratuitas",
+subtitle:"Guía realista para principiantes.",
+problemTitle:"El problema",
+problemList:["Sin dinero","Estafas","Sin camino claro"],
+solutionTitle:"La solución",
+solutionText:"NOVA ofrece un camino honesto.",
+contentTitle:"Contenido",
+contentList:["5 métodos","Herramientas","Plan 14 días","Errores"],
+storyTitle:"Historia",
+storyText:"Empecé desde cero.",
+downloadTitle:"Acceso descarga",
+downloadText:"Introduce el código.",
+supportTitle:"Soporte",
+legalTitle:"Legal",
+legalText:"Producto educativo digital."
+}
+};
+
+function render(l){
+document.querySelectorAll("[data]").forEach(e=>e.textContent=content[l][e.getAttribute("data")]);
+problemList.innerHTML="";contentList.innerHTML="";
+content[l].problemList.forEach(i=>problemList.innerHTML+=`<li>${i}</li>`);
+content[l].contentList.forEach(i=>contentList.innerHTML+=`<li>${i}</li>`);
+}
+render("en");
+lang.onchange=e=>render(e.target.value);
+
+function unlock(){
+  if(code.value==="NOVA2026"){
+    download.style.display="block";
+  }else{alert("Invalid code")}
+}
+</script>
+
+</body>
+</html>
